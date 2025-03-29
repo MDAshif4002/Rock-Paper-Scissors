@@ -1,0 +1,43 @@
+@media only screen and (min-width:200px) and (max-width:768px) {
+    h1{
+        background-color: #081b31;
+        color: #fff;
+        height: 5rem;
+        line-height: 5rem;
+    }
+    .choices{
+        gap: 1rem;
+        margin-top: 5rem;
+    }
+    .choice{
+        height: 105px;
+        width: 105px;
+        border-radius: 50%;
+    }
+    .choice:hover{
+       background-color: #081b31;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .choice img{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .score-board{
+        margin-top: 4rem;
+    }
+    #user-score, #comp-score{
+        font-size: 4rem;
+    }
+    .msg-container{
+        margin-top: 8rem;
+    }
+    #msg{
+       display: inline-block;
+       word-wrap: break-word;
+       margin: 10px;
+    }
+}
